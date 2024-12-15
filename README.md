@@ -1,4 +1,4 @@
-# Training Deep Neural Networks with Virtual Smoothing Classes
+# Training Deep Neural Networks with Virtual Smoothing Classes (AAAI 2025)
 
 **Requisite**\
 This code is implemented in PyTorch, and we have tested the code under the following environment settings:\
