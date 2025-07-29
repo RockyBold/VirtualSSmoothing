@@ -126,6 +126,7 @@ def ResNet18(num_real_classes=10, num_v_classes=0, normalizer=None, output_real_
     return ResNet(BasicBlock, [2, 2, 2, 2], num_real_classes=num_real_classes, num_v_classes=num_v_classes,
                   normalizer=normalizer, output_real_only=output_real_only, output_v_only=output_v_only,
                   add_real_v=add_real_v)
+                 # change the BasicBlock array to [2,1,1,1] or anyother.
 
 
 def ResNet34(num_real_classes=10, num_v_classes=0, normalizer=None, output_real_only=False, output_v_only=False,
@@ -133,6 +134,7 @@ def ResNet34(num_real_classes=10, num_v_classes=0, normalizer=None, output_real_
     return ResNet(BasicBlock, [3, 4, 6, 3], num_real_classes=num_real_classes, num_v_classes=num_v_classes,
                   normalizer=normalizer, output_real_only=output_real_only, output_v_only=output_v_only,
                   add_real_v=add_real_v)
+                 # change the BasicBlock array to [1,2,2,1] or anyother.
 
 
 def ResNet50(num_real_classes=10, num_v_classes=0, normalizer=None, output_real_only=False, output_v_only=False,
