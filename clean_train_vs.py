@@ -40,7 +40,7 @@ parser.add_argument('--weight_decay', '--wd', default=1e-4, type=float, metavar=
 
 parser.add_argument('--lr', type=float, default=0.1, metavar='LR', help='Learning rate')
 parser.add_argument('--momentum', type=float, default=0.9, metavar='M', help='SGD momentum')
-parser.add_argument('--epochs', type=int, default=200, metavar='N', help='Number of epochs to train')
+parser.add_argument('--epochs', type=int, default=7, metavar='N', help='Number of epochs to train')
 parser.add_argument('--schedule', type=int, nargs='+', default=[100, 150],
                     help='Decrease learning rate at these epochs.')
 
